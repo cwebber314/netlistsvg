@@ -1,0 +1,189 @@
+<svg  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:s="https://github.com/nturley/netlistsvg">
+  <s:properties
+    constants="false"
+    splitsAndJoins="false"
+    genericsLaterals="true">
+    <s:layoutEngine
+        org.eclipse.elk.layered.spacing.nodeNodeBetweenLayers="5"
+        org.eclipse.elk.layered.compaction.postCompaction.strategy="4"
+        org.eclipse.elk.spacing.nodeNode= "35"
+        org.eclipse.elk.direction="DOWN"
+    />
+  </s:properties>
+<style>
+svg {
+  stroke: #000;
+  fill: none;
+}
+text {
+  fill: #000;
+  stroke: none;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+}
+.nodelabel {
+  text-anchor: middle;
+}
+.inputPortLabel {
+  text-anchor: end;
+}
+.splitjoinBody {
+  fill: #000;
+}
+.symbol {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+.detail {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  fill: #000;
+}
+</style>
+
+
+<g s:type="w2_v" s:width="50" s:height="68" transform="translate(5,0)">
+  <s:alias val="w2_v"/>
+  <circle cx="16" cy="26" r="16" class="symbol $cell_id"/>
+  <circle cx="16" cy="42" r="16" class="symbol $cell_id"/>
+  <text x="35" y="30" s:attribute="ref" class="$cell_id">X1</text>
+  <text x="35" y="45" s:attribute="value" class="$cell_id" >Xk</text>
+  <line x1="16" y1="0"  x2="16" y2="10" class="connect $cell_id"/>
+  <line x1="16" y1="58" x2="16" y2="68" class="connect $cell_id"/>
+  <g s:x="16" s:y="0" s:pid="A" s:position="top"/>
+  <g s:x="16" s:y="64" s:pid="B" s:position="bottom"/>
+</g>
+
+
+<g s:type="resistor_h" s:width="50" s:height="10" transform="translate(5,100)">
+  <s:alias val="r_h"/>
+  <text class="nodelabel $cell_id" x="25" y="-5" s:attribute="ref">X1</text>
+  <text class="nodelabel $cell_id" x="25" y="20" s:attribute="value">Xk</text>
+  <path d="M10,0 H40 V10 H10 Z" class="symbol $cell_id"/>
+  <path d="M0,5 H10 M40,5 H50" class="connect $cell_id"/>
+  <g s:x="0" s:y="5" s:pid="A" s:position="left"/>
+  <g s:x="50" s:y="5" s:pid="B" s:position="right"/>
+</g>
+
+<g s:type="acline_v" s:width="300" s:height="10" transform="translate(5,500)">
+  <s:alias val="acline_v"/>
+  <text class="nodelabel $cell_id" x="25" y="-5" s:attribute="ref">X1</text>
+  <line x1="5" y1="0"  x2="5" y2="295" class="symbol $cell_id"/>
+  <line x1="5" y1="0"  x2="5" y2="5" class="connect $cell_id"/>
+  <line x1="5" y1="295" x2="5" y2="300" class="connect $cell_id"/>
+  <g s:x="5" s:y="0" s:pid="A" s:position="left"/>
+  <g s:x="5" s:y="300" s:pid="B" s:position="right"/>
+</g>
+
+<g s:type="acline_h" s:width="300" s:height="10" transform="translate(5,500)">
+  <s:alias val="acline_h"/>
+  <text class="nodelabel $cell_id" x="25" y="-5" s:attribute="ref">X1</text>
+  <line x1="0" y1="5"  x2="5" y2="5" class="connect $cell_id"/>
+  <line x1="295" y1="5" x2="300" y2="5" class="connect $cell_id"/>
+  <line x1="5" y1="5"  x2="295" y2="5" class="symbol $cell_id"/>
+  <g s:x="0" s:y="5" s:pid="A" s:position="left"/>
+  <g s:x="300" s:y="5" s:pid="B" s:position="right"/>
+</g>
+
+<g s:type="line_exit" s:width="50" s:height="30" transform="translate(5,200)">
+  <s:alias val="line_exit"/>
+  <text class="nodelabel $cell_id" x="20" y="25" s:attribute="ref">X1</text>
+  <text class="nodelabel $cell_id" x="20" y="35" s:attribute="value">Xk</text>
+  <line x1="0" y1="5" x2="10" y2="5" class="connect $cell_id"/>
+  <path d="M10,5 l5,5 h20 v-10 h-20 l-5,5" class="symbol $cell_id"/>
+  <g s:x="0" s:y="5" s:pid="A" s:position="left"/>
+</g>
+
+<g s:type="resistor_v" s:width="10" s:height="50" transform="translate(5,300)">
+  <s:alias val="r_v"/>
+  <text x="15"  y="15" s:attribute="ref" class="$cell_id">X1</text>
+  <text x="15" y="30" s:attribute="value" class="$cell_id" >Xk</text>
+  <path d="M0,10 V40 H10 V10 Z" class="symbol $cell_id"/>
+  <path d="M5,0 V10 M5,40 V50" class="connect $cell_id"/>
+  <g s:x="5" s:y="0" s:pid="A" s:position="top"/>
+  <g s:x="5" s:y="50" s:pid="B" s:position="bottom"/>
+</g>
+
+<g s:type="switch_v" s:width="40" s:height="50" transform="translate(5,400)">
+  <s:alias val="switch_v"/>
+  <line x1="5" y1="0"  x2="5" y2="5" class="connect $cell_id"/>
+  <line x1="5" y1="45" x2="5" y2="50" class="connect $cell_id"/>
+  <path d="M5,0 v10 l10,20" class="symbol $cell_id"/>
+  <path d="M5,35 v10" class="symbol $cell_id"/>
+  <text x="25" y="20" s:attribute="ref" class="$cell_id">X1</text>
+  <g s:x="5" s:y="0" s:pid="A" s:position="top"/>
+  <g s:x="5" s:y="50" s:pid="B" s:position="bottom"/>
+</g>
+
+<!-- Substation container 4 ports -->
+<g s:type="s4" s:width="60" s:height="60" transform="translate(100,5)">
+  <s:alias val="s4"/>
+  <text x="15" y="15" s:attribute="ref" class="$cell_id">X1</text>
+  <rect x="5" y="5" width="50" height="50" class="symbol $cell_id"/>
+  <line x1="0" y1="15" x2="5" y2="15" class="connect $cell_id"/>
+  <line x1="0" y1="30" x2="5" y2="30" class="connect $cell_id"/>
+  <line x1="55" y1="15" x2="60" y2="15" class="connect $cell_id"/>
+  <line x1="55" y1="30" x2="60" y2="30" class="connect $cell_id"/>
+  <g s:x="0" s:y="15" s:pid="A" s:position="left"/>
+  <g s:x="0" s:y="35" s:pid="B" s:position="left"/>
+  <g s:x="50" s:y="15" s:pid="C" s:position="right"/>
+  <g s:x="50" s:y="35" s:pid="D" s:position="right"/>
+</g>
+
+<g s:type="breaker_v" s:width="60" s:height="50" transform="translate(200,200)">
+  <s:alias val="breaker_v"/>
+  <rect x="10" y="10" width="30" height="30" class="symbol $cell_id"/>
+  <text x="45" y="30" s:attribute="ref" class="$cell_id">X1</text>
+  <line x1="25" y1="0"  x2="25" y2="10" class="connect $cell_id"/>
+  <line x1="25" y1="40" x2="25" y2="50" class="connect $cell_id"/>
+  <g s:x="25" s:y="0" s:pid="A" s:position="top"/>
+  <g s:x="25" s:y="50" s:pid="B" s:position="bottom"/>
+</g>
+
+<g s:type="breaker_h" s:width="50" s:height="65" transform="translate(200,300)">
+  <s:alias val="breaker_h"/>
+  <rect x="10" y="10" width="30" height="30" class="symbol $cell_id"/>
+  <text x="25" y="50" s:attribute="ref" class="$cell_id">X1</text>
+  <line x1="40" y1="25" x2="50" y2="25" class="connect $cell_id"/>
+  <line x1="0" y1="25" x2="10" y2="25" class="connect $cell_id"/>
+  <g s:x="0" s:y="25" s:pid="A" s:position="top"/>
+  <g s:x="50" s:y="25" s:pid="B" s:position="bottom"/>
+</g>
+
+
+<g s:type="bus2_h" s:width="50" s:height="5" transform="translate(300,5)">
+  <s:alias val="bus_h"/>
+  <text x="35" y="30" s:attribute="ref" class="$cell_id">X1</text>
+  <text x="35" y="45" s:attribute="value" class="$cell_id" >Xk</text>
+  <line x1="25" y1="0"  x2="25" y2="10" stroke-width="3px" class="connect $cell_id"/>
+  <g s:x="3" s:y="10" s:pid="A" s:position="top"/>
+  <g s:x="3" s:y="40" s:pid="B" s:position="top"/>
+</g>
+
+<!-- builtin -->
+<g s:type="generic" s:width="30" s:height="40" transform="translate(500, 100)">
+  <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">generic</text>
+  <rect width="30" height="40" x="0" y="0" s:generic="body" class="$cell_id"/>
+  <g transform="translate(30,10)"
+     s:x="30" s:y="10" s:pid="out0" s:position="right">
+    <text x="5" y="-4" class="$cell_id">out0</text>
+  </g>
+  <g transform="translate(30,30)"
+     s:x="30" s:y="30" s:pid="out1" s:position="right">
+    <text x="5" y="-4" class="$cell_id">out1</text>
+  </g>
+  <g transform="translate(0,10)"
+     s:x="0" s:y="10" s:pid="in0" s:position="left">
+      <text x="-3" y="-4" class="inputPortLabel $cell_id">in0</text>
+  </g>
+  <g transform="translate(0,30)"
+     s:x="0" s:y="30" s:pid="in1" s:position="left">
+    <text x="-3" y="-4" class="inputPortLabel $cell_id">in1</text>
+  </g>
+</g>
+
+</svg>

@@ -1,0 +1,114 @@
+{
+  "modules": {
+    "resistor_divider": {
+      "ports": {
+      },
+      "cells": {
+        "K11": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [3]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K12": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [3],
+            "B": [4]
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        },
+        "K13": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [4],
+            "B": [5]
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        },
+        "K21": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [6]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K22": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [6],
+            "B": [7]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K23": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [7],
+            "B": [5]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "LINE1": {
+          "type": "line_exit",
+          "connections": {
+            "A": [7]
+          },
+          "port_directions": {
+            "A": "input"
+          },          
+          "attributes": {
+          }
+        },
+        "LINE2": {
+          "type": "line_exit",
+          "connections": {
+            "A": [6]
+          },
+          "port_directions": {
+            "A": "input"
+          },          
+          "attributes": {
+          }
+        },
+        "LINE3": {
+          "type": "line_exit",
+          "connections": {
+            "A": [3]
+          },
+          "port_directions": {
+            "A": "input"
+          },          
+          "attributes": {
+          }
+        },
+        "LINE4": {
+          "type": "line_exit",
+          "connections": {
+            "A": [4]
+          },
+          "port_directions": {
+            "A": "input"
+          },          
+          "attributes": {
+          }
+        }
+      }
+    }
+  }
+}

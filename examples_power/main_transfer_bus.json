@@ -1,0 +1,103 @@
+{
+  "modules": {
+    "resistor_divider": {
+      "ports": {
+      },
+      "cells": {
+        "K1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [1],
+            "B": [2]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "LINE1": {
+          "type": "line_exit",
+          "connections": {
+            "A": [2]
+          },
+          "port_directions": {
+            "A": "input"
+          },
+          "attributes": {
+          }
+        },
+        "SW1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [2],
+            "B": [99]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K2": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [1],
+            "B": [4]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "LINE2": {
+          "type": "line_exit",
+          "connections": {
+            "A": [4]
+          },
+          "port_directions": {
+            "A": "input"
+          },
+          "attributes": {
+          }
+        },        
+        "SW2": {
+          "type": "switch_v",
+          "connections": {
+            "A": [4],
+            "B": [99]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K3": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [1],
+            "B": [6]
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        },
+        "LINE3": {
+          "type": "line_exit",
+          "connections": {
+            "A": [6]
+          },
+          "port_directions": {
+            "A": "input"
+          },
+          "attributes": {
+          }
+        },        
+        "SW3": {
+          "type": "switch_v",
+          "connections": {
+            "A": [6],
+            "B": [99]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        }
+      }
+    }
+  }
+}

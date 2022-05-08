@@ -1,0 +1,40 @@
+{
+  "modules": {
+    "resistor_divider": {
+      "ports": {
+      },
+      "cells": {
+        "K1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [3]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K2": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [4]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K3": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [5]
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        }
+      }
+    }
+  }
+}

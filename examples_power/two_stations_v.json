@@ -1,0 +1,130 @@
+{
+  "modules": {
+    "resistor_divider": {
+      "ports": {
+      },
+      "cells": {
+        "K11": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [10],
+            "B": [11]
+          },
+          "attributes": {
+          }
+        },
+        "SW11": {
+          "type": "switch_v",
+          "connections": {
+            "A": [11],
+            "B": [12]
+          },
+          "attributes": {
+          }
+        },
+        "LINE1": {
+          "type": "line_exit",
+          "connections": {
+            "A": [12]
+          },
+          "port_directions": {
+            "A": "input"
+          },
+          "attributes": {
+          }
+        },
+        "K12": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [10],
+            "B": [21]
+          },
+          "attributes": {
+          }
+        },
+        "SW12": {
+          "type": "switch_v",
+          "connections": {
+            "A": [21],
+            "B": [22]
+          },
+          "attributes": {
+          }
+        },        
+        "LINE2": {
+          "type": "acline_v",
+          "connections": {
+            "A": [22],
+            "B": [100]
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "output"
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        },
+        "K13": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [10],
+            "B": [31]
+          },
+          "attributes": {
+          }
+        },
+        "SW13": {
+          "type": "switch_v",
+          "connections": {
+            "A": [31],
+            "B": [32]
+          },
+          "attributes": {
+          }
+        },
+        "LINE3": {
+          "type": "line_exit",
+          "connections": {
+            "A": [32]
+          },
+          "port_directions": {
+            "A": "input"
+          },
+          "attributes": {
+          }
+        },        
+        "K21": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [100],
+            "B": [101]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K22": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [100],
+            "B": [201]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K23": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [100],
+            "B": [301]
+          },
+          "attributes": {
+            "value":"10k"
+          }
+        }        
+      }
+    }
+  }
+}
