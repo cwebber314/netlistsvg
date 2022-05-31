@@ -1,0 +1,75 @@
+{
+  "modules": {
+    "module_name": {
+      "ports": {},
+      "cells": {
+        "SWD_1_3_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              48761
+            ],
+            "B": [
+              71475
+            ]
+          }
+        },
+        "SWD_1_4_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              48761
+            ],
+            "B": [
+              467790
+            ]
+          }
+        },
+        "SWD_2_5_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              572241
+            ],
+            "B": [
+              1031308
+            ]
+          }
+        },
+        "SWD_2_6_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              572241
+            ],
+            "B": [
+              28247
+            ]
+          }
+        },
+        "SWD_3_5_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              71475
+            ],
+            "B": [
+              1031308
+            ]
+          }
+        },
+        "SWD_4_6_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              467790
+            ],
+            "B": [
+              28247
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,1 @@
-netlistsvg two_stations.json -o two_stations.svg --skin ./power_skin.svg
+netlistsvg cim_test.json -o cim_test.svg --skin ./power_skin.svg

@@ -7,7 +7,7 @@
         "K11": {
           "type": "breaker_v",
           "connections": {
-            "A": [2],
+            "A": [117842159900534875747537651412564216866],
             "B": [3]
           },
           "attributes": {
@@ -37,7 +37,7 @@
         "K21": {
           "type": "breaker_v",
           "connections": {
-            "A": [2],
+            "A": [117842159900534875747537651412564216866],
             "B": [6]
           },
           "attributes": {
@@ -63,7 +63,7 @@
           "attributes": {
             "value":"9k"
           }
-        },        
+        },
         "LINE1": {
           "type": "line_exit",
           "connections": {

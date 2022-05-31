@@ -1,0 +1,559 @@
+{
+  "modules": {
+    "module_name": {
+      "ports": {},
+      "cells": {
+        "SWD_11_26_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              386282
+            ],
+            "B": [
+              282149
+            ]
+          }
+        },
+        "SWD_12_27_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              932210
+            ],
+            "B": [
+              541121
+            ]
+          }
+        },
+        "SWD_13_28_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              436128
+            ],
+            "B": [
+              985382
+            ]
+          }
+        },
+        "SWD_14_29_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              519131
+            ],
+            "B": [
+              1039029
+            ]
+          }
+        },
+        "SWD_15_30_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              477443
+            ],
+            "B": [
+              842610
+            ]
+          }
+        },
+        "SWD_16_31_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              883866
+            ],
+            "B": [
+              170098
+            ]
+          }
+        },
+        "SWD_17_32_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              868574
+            ],
+            "B": [
+              887864
+            ]
+          }
+        },
+        "SWD_18_33_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              952445
+            ],
+            "B": [
+              886152
+            ]
+          }
+        },
+        "SWD_19_34_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              558427
+            ],
+            "B": [
+              144076
+            ]
+          }
+        },
+        "SWD_20_35_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              449817
+            ],
+            "B": [
+              798719
+            ]
+          }
+        },
+        "SWD_21_36_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              189554
+            ],
+            "B": [
+              637198
+            ]
+          }
+        },
+        "SWD_22_37_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              774169
+            ],
+            "B": [
+              242608
+            ]
+          }
+        },
+        "SWD_23_38_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              704546
+            ],
+            "B": [
+              104666
+            ]
+          }
+        },
+        "SWD_24_39_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              661722
+            ],
+            "B": [
+              146903
+            ]
+          }
+        },
+        "SWD_25_40_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              12851
+            ],
+            "B": [
+              708666
+            ]
+          }
+        },
+        "SWD_47_48_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              366763
+            ],
+            "B": [
+              1028013
+            ]
+          }
+        },
+        "SWD_49_50_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              410648
+            ],
+            "B": [
+              696370
+            ]
+          }
+        },
+        "SWD_9_10_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              991202
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_26_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              282149
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_27_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              541121
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_28_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              985382
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_29_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              1039029
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_30_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              842610
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_31_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              170098
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_32_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              887864
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_33_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              886152
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_34_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              144076
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_35_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              798719
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_36_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              637198
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_37_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              242608
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_38_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              104666
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_39_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              146903
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_10_40_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              991202
+            ],
+            "B": [
+              708666
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_47_50_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              366763
+            ],
+            "B": [
+              696370
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_48_50_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              1028013
+            ],
+            "B": [
+              696370
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_26_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              282149
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_27_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              541121
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_28_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              985382
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_29_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              1039029
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_30_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              842610
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_31_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              170098
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_32_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              887864
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_33_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              886152
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_34_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              144076
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_35_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              798719
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_36_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              637198
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_37_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              242608
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_38_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              104666
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_39_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              146903
+            ]
+          }
+        },
+        "SS_MISSISSIPPI_SWD_9_40_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              717953
+            ],
+            "B": [
+              708666
+            ]
+          }
+        }
+      }
+    }
+  }
+}

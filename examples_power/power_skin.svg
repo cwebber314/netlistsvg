@@ -119,21 +119,6 @@ text {
   <g s:x="5" s:y="50" s:pid="B" s:position="bottom"/>
 </g>
 
-<!-- Substation container 4 ports -->
-<g s:type="s4" s:width="60" s:height="60" transform="translate(100,5)">
-  <s:alias val="s4"/>
-  <text x="15" y="15" s:attribute="ref" class="$cell_id">X1</text>
-  <rect x="5" y="5" width="50" height="50" class="symbol $cell_id"/>
-  <line x1="0" y1="15" x2="5" y2="15" class="connect $cell_id"/>
-  <line x1="0" y1="30" x2="5" y2="30" class="connect $cell_id"/>
-  <line x1="55" y1="15" x2="60" y2="15" class="connect $cell_id"/>
-  <line x1="55" y1="30" x2="60" y2="30" class="connect $cell_id"/>
-  <g s:x="0" s:y="15" s:pid="A" s:position="left"/>
-  <g s:x="0" s:y="35" s:pid="B" s:position="left"/>
-  <g s:x="50" s:y="15" s:pid="C" s:position="right"/>
-  <g s:x="50" s:y="35" s:pid="D" s:position="right"/>
-</g>
-
 <g s:type="breaker_v" s:width="60" s:height="50" transform="translate(200,200)">
   <s:alias val="breaker_v"/>
   <rect x="10" y="10" width="30" height="30" class="symbol $cell_id"/>
@@ -154,36 +139,12 @@ text {
   <g s:x="50" s:y="25" s:pid="B" s:position="bottom"/>
 </g>
 
-
-<g s:type="bus2_h" s:width="50" s:height="5" transform="translate(300,5)">
-  <s:alias val="bus_h"/>
-  <text x="35" y="30" s:attribute="ref" class="$cell_id">X1</text>
-  <text x="35" y="45" s:attribute="value" class="$cell_id" >Xk</text>
-  <line x1="25" y1="0"  x2="25" y2="10" stroke-width="3px" class="connect $cell_id"/>
-  <g s:x="3" s:y="10" s:pid="A" s:position="top"/>
-  <g s:x="3" s:y="40" s:pid="B" s:position="top"/>
-</g>
-
-<!-- builtin -->
-<g s:type="generic" s:width="30" s:height="40" transform="translate(500, 100)">
-  <text x="15" y="-4" class="nodelabel $cell_id" s:attribute="ref">generic</text>
-  <rect width="30" height="40" x="0" y="0" s:generic="body" class="$cell_id"/>
-  <g transform="translate(30,10)"
-     s:x="30" s:y="10" s:pid="out0" s:position="right">
-    <text x="5" y="-4" class="$cell_id">out0</text>
-  </g>
-  <g transform="translate(30,30)"
-     s:x="30" s:y="30" s:pid="out1" s:position="right">
-    <text x="5" y="-4" class="$cell_id">out1</text>
-  </g>
-  <g transform="translate(0,10)"
-     s:x="0" s:y="10" s:pid="in0" s:position="left">
-      <text x="-3" y="-4" class="inputPortLabel $cell_id">in0</text>
-  </g>
-  <g transform="translate(0,30)"
-     s:x="0" s:y="30" s:pid="in1" s:position="left">
-    <text x="-3" y="-4" class="inputPortLabel $cell_id">in1</text>
-  </g>
+<g s:type="generator_v" s:width="60" s:height="50" transform="translate(300,100)">
+  <s:alias val="generator_v"/>
+  <circle cx="25" cy="25" r="15" class="symbol $cell_id"/>
+  <text x="45" y="30" s:attribute="ref" class="$cell_id">X1</text>
+  <line x1="25" y1="0"  x2="25" y2="10" class="connect $cell_id"/>
+  <g s:x="25" s:y="0" s:pid="A" s:position="top"/>
 </g>
 
 </svg>

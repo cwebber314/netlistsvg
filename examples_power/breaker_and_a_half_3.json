@@ -9,9 +9,6 @@
           "connections": {
             "A": [2],
             "B": [3]
-          },
-          "attributes": {
-            "value":"9k"
           }
         },
         "K12": {
@@ -19,9 +16,6 @@
           "connections": {
             "A": [3],
             "B": [4]
-          },
-          "attributes": {
-            "value":"10k"
           }
         },
         "K13": {
@@ -29,9 +23,6 @@
           "connections": {
             "A": [4],
             "B": [5]
-          },
-          "attributes": {
-            "value":"10k"
           }
         },
         "K21": {
@@ -39,9 +30,6 @@
           "connections": {
             "A": [2],
             "B": [6]
-          },
-          "attributes": {
-            "value":"9k"
           }
         },
         "K22": {
@@ -49,9 +37,6 @@
           "connections": {
             "A": [6],
             "B": [7]
-          },
-          "attributes": {
-            "value":"9k"
           }
         },
         "K23": {
@@ -63,6 +48,30 @@
           "attributes": {
             "value":"9k"
           }
+        },
+        "K31": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [2],
+            "B": [30]
+          },
+          "attributes": {
+            "value":"9k"
+          }
+        },
+        "K32": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [30],
+            "B": [31]
+          }
+        },
+        "K33": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [31],
+            "B": [5]
+          }
         },        
         "LINE1": {
           "type": "line_exit",
@@ -71,8 +80,6 @@
           },
           "port_directions": {
             "A": "input"
-          },          
-          "attributes": {
           }
         },
         "LINE2": {
@@ -82,8 +89,6 @@
           },
           "port_directions": {
             "A": "input"
-          },          
-          "attributes": {
           }
         },
         "LINE3": {
@@ -93,8 +98,6 @@
           },
           "port_directions": {
             "A": "input"
-          },          
-          "attributes": {
           }
         },
         "LINE4": {
@@ -104,10 +107,26 @@
           },
           "port_directions": {
             "A": "input"
-          },          
-          "attributes": {
           }
-        }
+        },
+        "LINE5 long name": {
+          "type": "line_exit",
+          "connections": {
+            "A": [30]
+          },
+          "port_directions": {
+            "A": "input"
+          }
+        },
+        "LINE6": {
+          "type": "line_exit",
+          "connections": {
+            "A": [31]
+          },
+          "port_directions": {
+            "A": "input"
+          }
+        }        
       }
     }
   }

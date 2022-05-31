@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="369" height="169"><style>svg {
+  stroke: #000;
+  fill: none;
+}
+text {
+  fill: #000;
+  stroke: none;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+}
+.nodelabel {
+  text-anchor: middle;
+}
+.inputPortLabel {
+  text-anchor: end;
+}
+.splitjoinBody {
+  fill: #000;
+}
+.symbol {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+.detail {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  fill: #000;
+}</style><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(297,32)" id="cell_SWD_1_3_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_1_3_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_1_3_1">SWD_1_3_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_1_3_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_1_3_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(12,32)" id="cell_SWD_1_4_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_1_4_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_1_4_1">SWD_1_4_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_1_4_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_1_4_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(202,87)" id="cell_SWD_2_5_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_2_5_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_2_5_1">SWD_2_5_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_2_5_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_2_5_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(107,87)" id="cell_SWD_2_6_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_2_6_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_2_6_1">SWD_2_6_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_2_6_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_2_6_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(297,87)" id="cell_SWD_3_5_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_3_5_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_3_5_1">SWD_3_5_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_3_5_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_3_5_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><g s:type="breaker_v" s:width="60" s:height="50" transform="translate(12,87)" id="cell_SWD_4_6_1"><s:alias val="breaker_v"/><rect x="10" y="10" width="30" height="30" class="symbol cell_SWD_4_6_1"/><text x="45" y="30" s:attribute="ref" class="cell_SWD_4_6_1">SWD_4_6_1</text><line x1="25" y1="0" x2="25" y2="10" class="connect cell_SWD_4_6_1"/><line x1="25" y1="40" x2="25" y2="50" class="connect cell_SWD_4_6_1"/><g s:x="25" s:y="0" s:pid="A" s:position="top"/><g s:x="25" s:y="50" s:pid="B" s:position="bottom"/></g><line x1="37" x2="322" y1="22" y2="22" class="net_48761 width_1" style="stroke-width: 1"/><line x1="322" x2="322" y1="22" y2="32" class="net_48761 width_1" style="stroke-width: 1"/><line x1="37" x2="37" y1="22" y2="32" class="net_48761 width_1" style="stroke-width: 1"/><line x1="132" x2="227" y1="77" y2="77" class="net_572241 width_1" style="stroke-width: 1"/><line x1="227" x2="227" y1="77" y2="87" class="net_572241 width_1" style="stroke-width: 1"/><line x1="132" x2="132" y1="77" y2="87" class="net_572241 width_1" style="stroke-width: 1"/><line x1="322" x2="322" y1="82" y2="87" class="net_71475 width_1" style="stroke-width: 1"/><line x1="37" x2="37" y1="82" y2="87" class="net_467790 width_1" style="stroke-width: 1"/><line x1="227" x2="227" y1="137" y2="147" class="net_1031308 width_1" style="stroke-width: 1"/><line x1="322" x2="322" y1="137" y2="147" class="net_1031308 width_1" style="stroke-width: 1"/><line x1="322" x2="227" y1="147" y2="147" class="net_1031308 width_1" style="stroke-width: 1"/><line x1="132" x2="132" y1="137" y2="147" class="net_28247 width_1" style="stroke-width: 1"/><line x1="132" x2="37" y1="147" y2="147" class="net_28247 width_1" style="stroke-width: 1"/><line x1="37" x2="37" y1="137" y2="147" class="net_28247 width_1" style="stroke-width: 1"/></svg>

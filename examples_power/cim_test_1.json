@@ -1,0 +1,119 @@
+{
+  "modules": {
+    "module_name": {
+      "ports": {},
+      "cells": {
+        "SWD_1_2_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              707609
+            ],
+            "B": [
+              837882
+            ]
+          }
+        },
+        "SWD_3_6_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              327854
+            ],
+            "B": [
+              500282
+            ]
+          }
+        },
+        "SWD_4_7_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              49211
+            ],
+            "B": [
+              534026
+            ]
+          }
+        },
+        "SWD_5_8_1": {
+          "type": "breaker_v",
+          "connections": {
+            "A": [
+              472416
+            ],
+            "B": [
+              25458
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_1_6_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              707609
+            ],
+            "B": [
+              500282
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_1_7_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              707609
+            ],
+            "B": [
+              534026
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_1_8_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              707609
+            ],
+            "B": [
+              25458
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_2_6_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              837882
+            ],
+            "B": [
+              500282
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_2_7_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              837882
+            ],
+            "B": [
+              534026
+            ]
+          }
+        },
+        "SS_COLORADO_SWD_2_8_1": {
+          "type": "switch_v",
+          "connections": {
+            "A": [
+              837882
+            ],
+            "B": [
+              25458
+            ]
+          }
+        }
+      }
+    }
+  }
+}
